@@ -39,9 +39,9 @@
     disable_current_tag_swap: false,
     disable_tile_drag: false,
     disable_window_snap: true,
-    focus_behaviour: Sloppy,
+    focus_behaviour: Driven,
     focus_new_windows: true,
-    sloppy_mouse_follows_focus: true,
+    sloppy_mouse_follows_focus: false,
     keybind: [
         (command: Execute, value: "dmenu_run", modifier: ["modkey"], key: "space"),
         (command: Execute, value: "alacritty", modifier: ["modkey"], key: "Return"),
