@@ -42,3 +42,4 @@ do
   let index=indextemp
 done
 
+pkill teams;
